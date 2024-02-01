@@ -46,6 +46,5 @@ location.reload()
 
 btnReset.addEventListener("click", removePopUp)
 btnPlay.addEventListener("click", VerifyRandomNumber)
-input.addEventListener('click' ,() => {mensageError.classList.add('hide')
-})
+input.addEventListener('click' ,() => {mensageError.classList.add('hide')})
 
