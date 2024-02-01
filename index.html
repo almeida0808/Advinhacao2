@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="main.js" defer></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="stye.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&display=swap"
+      rel="stylesheet"
+    />
+    <title>Jogo da Advinhação</title>
+  </head>
+  <body>
+    <video src="asssets/circuits_-_4767 (Original).mp4" autoplay muted loop></video>
+    <main>
+      <section id="app">
+        <div id="tela1" class="">
+          <h1>Jogo da Advinhação</h1>
+          <div id="jogo">
+            <input
+              type="number"
+              name="number"
+              id="number"
+              placeholder="Digite um Número 0 a 10"
+            />
+            <button 
+            id="play"><i class="ph ph-caret-circle-double-right"></i></button>
+          </div>
+          <p id="errou" class="hide">(Tente Novamente)</p>
+        </div>
+
+        <div id="popUp" class="hide">
+          <p></p>
+          <h1>Parabéns Você concluiu o desafio!</h1>
+          <button id="reset">
+            <p>
+              J<br />o<br />g<br />a<br />r<br />
+              <br />N<br />o<br />v<br />a<br />m<br />e<br />n<br />t<br />e<br />
+            </p>
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
